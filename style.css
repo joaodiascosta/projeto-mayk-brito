@@ -34,7 +34,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -61,7 +62,7 @@ body * {
   margin: 4px auto;
 }
 
-#botao button{
+#botao button {
   width: 32px;
   height: 32px;
   background: white var(--switch-bg-url) no-repeat center;
@@ -91,7 +92,6 @@ body * {
   border-radius: 9999px;
 }
 
- 
 ul {
   list-style: none;
 
